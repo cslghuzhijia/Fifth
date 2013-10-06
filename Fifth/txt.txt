@@ -1,0 +1,18 @@
+alert("hi");
+		$(".teaser").removeClass("active");
+		$(this).parent(".teaser").addClass("active");
+
+
+	var x=$(this).val();
+	$(".txt").focus(function(){
+		alert("hide");
+		
+	});
+	
+	$(".txt").blur(function(){
+		$(this).val()=x;
+	});
+
+
+$(".marqueeCon #ul1").animate({left: Left+'px'}, "slow");
+		
