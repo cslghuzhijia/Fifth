@@ -1,0 +1,131 @@
+a{text-decoration: none;}
+ul{list-style-type: none;}
+body{text-align: center;}
+*{margin: 0px;padding: 0px;}
+
+img{border:none;}
+
+html{width: 1349px;height: 1980px;}
+.index{width: 1349px;height: 1980px;border:1px solid #ccc;}
+
+/*************************************************header start*******************************************************************************/
+.header2013{width: 1349px;height: 123px;float: left;border:1px solid #ccc;}
+.topnav{width: 1349px;height: 28px;float: left;border-bottom: 1px solid #ebebeb;background-color: #f6f6f6;}
+.inner{width: 1200px;height: 28px;margin: 0 auto;}
+.main-z{width: 1200px;margin: 0 auto;}
+.mainnav {width: 1200px;height: 50px;margin: 0 auto;padding: 20px 0;*height: 90px;float: left;}
+.welcome{width: 350px;height:24px;padding: 2px 0;*height:28px;float: left;}
+.w_text{width: 350px;height:24px;float: left;}
+.hotbag{line-height: 22px;vertical-align: middle;}
+.w_text_li{text-align: left;font-family: "SimSun";font-size: 12px;color:#808080;line-height:24px; display: block;float:left;}
+.dropdown_hd{display:inline-block;padding: 0 20px 0 10px;margin: 1px;line-height: 22px;position: relative;font-family: "SimSun";font-size: 12px;color:#808080;}
+.i_dropdown{line-height: 0px; border-width: 4px;border-style: solid;border-color:#666 #f5f5f5 #f5f5f5;width: 0px;height: 0px;position:absolute;top: 10px;right: 8px;}
+.dropdown_normalhd{font-family: "SimSun";font-size: 12px;color:#808080;text-align: center;}
+.w_t_li{padding: 0 10px;display:block;float: left;width:auto;line-height: 22px;font-family: "SimSun";font-size: 12px;color:#808080;}
+.lich{padding: 0px;letter-spacing: 0px;}
+.topmenu{width: 226px;height: 24px;padding: 2px 0;*height: 28px;float: right;}
+.topmenu ul{width: 250px;height: 24px;margin: 0 -10px 0 0;}
+.myorder{display:block;width: 80px;height: 24px;padding: 0 10px;float: left;*width:100px;text-align: left;}
+.logo{display: block; width: 130px;height: 50px;float: left;background-image: url("../Image/logo.png");}
+.nav2013{width: 678px;height: 31px;padding: 10px 0 0 0;*height: 41px;margin-left: 40px;float: left;}
+.nav2013 li{display: block;float: left;margin-right: 26px;}
+.nav2013 a{display: block;padding: 2px;color:#333;font-size: 18px;font-family: "微软雅黑"}
+.nav_index{background-image: url("../Image/img_index.png");background-position: 0px 8px;background-repeat: no-repeat;width: 36px;height: 27px;text-indent: -999px;overflow: hidden;}
+.nav_hotel{background-position: -80px 8px;width: 72px;height: 27px;}
+.nav_hk{background-position: -160px 8px;width: 72px;height: 27px;}
+.nav_tuan{background-position: -240px 8px;width: 72px;height: 27px;}
+.nav_air{background-position: -320px 8px;width: 72px;height: 27px;}
+.nav_tour{background-position: -400px 8px;width: 72px;height: 27px;}
+.nav_sys{background-position: -480px 8px;width: 72px;height: 27px;}
+.topad{width: 160px;height: 64px;float: right;}
+
+/*************************************************header end*******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************slider start*******************************************************************************/
+
+.colorline{width: 1349px;height: 4px;float: left;height: 4px;width: 100%;background: none repeat scroll 0% 0% rgb(127, 190, 37);font-size: 0px;}
+.colorline-inner{width: 1200px;height: 4px;margin: 0 auto;}
+.Line01{display: block;width: 200px;height: 4px;float: left;background: none repeat scroll 0% 0% rgb(227, 189, 36);}
+.Line02{display: block;width: 200px;height: 4px;float: left;background: none repeat scroll 0% 0% rgb(255, 154, 34);}
+
+.banner{width: 1349px;height: 400px;float: left;border:1px solid #ccc;}
+.png-inner{width: 400px;height:304px;float: left;}
+.i_soso{width: 1200px;margin: 0 auto;position: relative;}
+.soso_title{width: 350px;height:24px;float: left;margin: 30px 0 0 50px;}
+/*************************************************slider end*******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************body start*******************************************************************************/
+
+.slogan{width: 1349px;height: 100px;float: left;margin-bottom: 20px; border:1px solid #ccc;}
+.inner-png24{width: 400px;height: 400px;position: absolute;left: 0px;border:1px solid #ccc;}
+.main{width:1349px;height: 820px;float: left; border:1px solid #ccc;}
+
+/*************************************************body end*******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************footer start*******************************************************************************/
+
+.footer{width: 1349px;height: 494px;float: left;border:1px solid #ccc;}
+.footer-inner{width: 1200px;height: 234px;margin: 0 auto;padding: 40px 0 20px 0;*height: 295px;}
+.city_hotel{width: 1200px;height: 97px;margin-bottom: 20px;float: left;position: relative; border:1px solid #ccc;}
+.city_hd{width: 1200px;height: 32px;margin-bottom: 15px;float: left;border:1px solid #ccc;}
+.city_bd{width: 1200px;height: 50px;float: left;border:1px solid #ccc;}
+.more_down{width: 43px;height: 43px;float: left;position: absolute;right: 20px;top:47px;border:1px solid #ccc;}
+.footer-bottom-inner{width: 1200px;height: 138px;padding: 40px 0 20px 0;margin: 0 auto; border:1px solid #ccc;}
+.brand{width: 816px;height: 138px;float: left;border:1px solid #ccc;}
+.rwm{width: 246px;height: 135px;float: right;border:1px solid #ccc;}
+
+/*************************************************footer end*******************************************************************************/
+
+
+
