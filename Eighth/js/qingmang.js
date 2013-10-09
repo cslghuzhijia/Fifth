@@ -1,7 +1,18 @@
 $(function(){
 	ChangeBgPosition();
+	AddWord();
 });
 
+function AddWord(){
+	$(".input_city").focus(function(){
+		$(this).css({border:"2px solid #7cbf1c"});
+		$(".pop_city").show();
+	});
+	$(".input_city").blur(function(){
+		$(this).css({border:"2px solid #fff"});
+		$(".pop_city").hide();
+	});
+}
 
 function ChangeBgPosition(){
 	$(".nav2013 a").hover(
