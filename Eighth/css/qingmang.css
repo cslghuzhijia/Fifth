@@ -121,8 +121,36 @@ html{width: 1349px;height: 1980px;}
 .slogan-inner{float: left; width: 1200px;height: 100px;margin: 0 auto;background: url("../Image/slogan.png") no-repeat scroll 0% 0% transparent;}
 .main{width:1349px;height: 820px;float: left; border:1px solid #ccc;}
 .mod_box{width: 1200px;height:183px;margin: 0 auto;margin-bottom: 20px;}
-.mb_hd{width: 1200px;height:183px;margin-bottom: 15px;float: left;}
-.font_db{}
+.mb_hd{width: 1200px;height:32px;margin-bottom: 15px;float: left;}
+.font_db{width: 84px;height:32px;margin-right: 20px;float: left;font-size: 21px;font-family: "微软雅黑";font-weight:normal;color:#333;}
+.mb_bd{width: 1200px;height: 136px;float: left;}
+.db_item{width:auto;height: 136px;float: left;}
+.normalLi{width: 136px;height: 136px;display: block;float: left;margin-right: 16px;*margin-right: 12px;}
+.item_icon{width: 136px;height: 136px;float: left;opacity: 1;background: url("../Image/icon_db.png") no-repeat scroll 0% 0% transparent;}
+#i_jccz{background-color:#9aacdc;background-position: 0 0;}
+#i_jdzb{background-position: 0px -140px;background-color:#e2bf6f ;}
+#i_dxfj{background-position: 0px -280px;background-color:rgb(255, 149, 91);}
+.db_item span{width: 136px;height: 27px;padding-top: 90px;*height: 117px;float: left;display: block;font-size: 18px;font-family:"微软雅黑";color:#fff;}
+.chLi{margin-right: 0px;}
+#i_sqzb{background-position: 0px -420px;background-color: rgb(189, 222, 138);}
+#i_xzqy{background-color: rgb(177, 163, 221);background-position: 0px -560px;}
+#i_zghc{background-color: rgb(154, 211, 220);background-position: 0px -700px;}
+#i_dtzb{background-color: rgb(150, 191, 85);background-position: 0px -840px;}
+#i_yyzb{background-color: rgb(85, 189, 206);background-position: 0px -980px;}
+.hotel_th{height: 617px;}
+.city_list{width: 238px;height: 24px;float: left;}
+.clearfix{width: 238px;height: 18px;margin-top: 6px;float: left;}
+.clearfix li{line-height: 18px;padding-right: 10px;display: block;float: left;}
+.clearfix a{font-size: 12px;font-family:"SimSun";color: #333;}
+.clearfix a:hover{color:#7cbf1c ;}
+.picwrap{width: 1200px;height: 570px;float: left;border:1px solid #ccc;position: relative;}
+.picinner{width: 288px;height: 570px;margin-right: 16px;float: left;}
+.picwrap a{display: block;}
+.picB{height: 277px;}
+.picC{height: 277px;}
+.picD{width:592px ;height: 277px;margin-top: 16px;}
+.picE{width:288px ;height: 570px;position: absolute;top: 0px;right: 0px;margin: 0px;}
+
 /*************************************************body end*******************************************************************************/
 
 
@@ -144,15 +172,35 @@ html{width: 1349px;height: 1980px;}
 
 /*************************************************footer start*******************************************************************************/
 
-.footer{width: 1349px;height: 494px;float: left;border:1px solid #ccc;}
+.footer{width: 1349px;height: 494px;float: left;background: none repeat scroll 0% 0% rgb(242, 242, 240);}
 .footer-inner{width: 1200px;height: 234px;margin: 0 auto;padding: 40px 0 20px 0;*height: 295px;}
-.city_hotel{width: 1200px;height: 97px;margin-bottom: 20px;float: left;position: relative; border:1px solid #ccc;}
-.city_hd{width: 1200px;height: 32px;margin-bottom: 15px;float: left;border:1px solid #ccc;}
-.city_bd{width: 1200px;height: 50px;float: left;border:1px solid #ccc;}
-.more_down{width: 43px;height: 43px;float: left;position: absolute;right: 20px;top:47px;border:1px solid #ccc;}
-.footer-bottom-inner{width: 1200px;height: 138px;padding: 40px 0 20px 0;margin: 0 auto; border:1px solid #ccc;}
-.brand{width: 816px;height: 138px;float: left;border:1px solid #ccc;}
-.rwm{width: 246px;height: 135px;float: right;border:1px solid #ccc;}
+.city_hotel{width: 1200px;height: 97px;margin-bottom: 20px;float: left;position: relative; }
+.city_hd{width: 1200px;height: 32px;margin-bottom: 15px;float: left;text-align: left;}
+.city_bd{width: 1200px;height: 50px;float: left;}
+.more_down{width: 43px;height: 43px;float: left;position: absolute;right: 20px;top:47px;}
+.footer-bottom-inner{width: 1200px;height: 138px;padding: 40px 0 20px 0;margin: 0 auto;}
+.brand{width: 816px;height: 138px;float: left;}
+.rwm{width: 246px;height: 135px;float: right;}
+.font_city{font-family: "微软雅黑";font-size: 21px;font-weight: normal;}
+.c_b_list{width:1050px;height: 50px;float: left;overflow: hidden;}
+.footer-ul{width:1150px;height: 140px;margin-right: -100px;}
+.footer-ul li{margin-bottom: 10px;line-height: 18px;display: block;width: 120px;float: left;text-align: left;}
+.footer-ul a{color: #888;font-family:"SimSun";font-size:12px;text-align: left;}
+.link_list{width: 1050px;height: 50px;float: left;text-align:left;}
+.link_list a{line-height: 18px; display: inline-block;margin: 0px 15px 10px 0px;color: rgb(136, 136, 136);font-family:"SimSun";font-size:12px;text-align: left;*margin-right: 22px;}
+.hotel_more{display: block;float: left;width: 43px;height:43px;background: url("../Image/img_index.png") no-repeat scroll 0px -60px transparent;}
+.more-this{display: block;float: left;width: 43px;height:43px;background: url("../Image/img_index.png") no-repeat scroll -60px -60px transparent;}
+.q_link{text-align: left; margin-bottom: 10px;font-size: 12px;font-family: "Tahoma";color:#555;*word-spacing:-2px;word-spacing:-1px;}
+.q_link a{font-size: 12px;font-family: "SimSun";color:#555;}
+.xin{margin-bottom: 10px;}
+.xin a{display: block;float: left;padding-right: 10px;}
+.last{position: relative;bottom: -10px;left: 10px;}
+.rwm_weixin{width: 113px;height: 135px;float: left;margin-left:10px;}
+.rwm_weixin dt{width: 113px;height: 117px;float: left;}
+.rwm_weixin dd{width: 113px;height: 18px;float: left;text-align: center;font-family: "SimSun";color: #333;font-size: 12px;}
+
+
+
 
 /*************************************************footer end*******************************************************************************/
 

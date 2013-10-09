@@ -1,29 +1,3 @@
 focus->#7cbf1c
 
-<div class="i_soso">
-				<div class="inner-png24">
-					<div class="png-inner">
-						<div class="soso_title">
-							酒店搜索
-						</div>
-						<div class="search">
-							<ul class="search_fields">
-								<li>
-									<div class="input-wrap">
-										<input type="text" class="input_city">
-									</div>
-								</li>
-							</ul>
-						</div>
-						
-						
-						
-					</div>
-				</div>
-			</div>
-			<div class="slides">
-				<ul class="slides_main">
-					<li class="banner5">
-					</li>
-				</ul>
-			</div>
+background: url("http://img.qmango.com/images2013/icon_db.png") no-repeat scroll 0% 0% transparent;
