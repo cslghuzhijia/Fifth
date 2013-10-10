@@ -1,3 +1,2 @@
 focus->#7cbf1c
 
-background: url("http://img.qmango.com/images2013/icon_db.png") no-repeat scroll 0% 0% transparent;

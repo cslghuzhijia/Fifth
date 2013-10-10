@@ -66,11 +66,11 @@ html{width: 1349px;height: 1980px;}
 .Line01{display: block;width: 200px;height: 4px;float: left;background: none repeat scroll 0% 0% rgb(227, 189, 36);}
 .Line02{display: block;width: 200px;height: 4px;float: left;background: none repeat scroll 0% 0% rgb(255, 154, 34);}
 
-.banner{width: 1349px;height: 400px;float: left;border:1px solid #000;}
+.banner{width: 1349px;height: 400px;float: left;}
 .png-inner{width: 400px;height:304px;float: left;}
 .i_soso{width: 1200px; margin: 0 auto;position: relative;}
 .soso_title{width: 350px;height:24px;float: left;margin: 30px 0 0 50px;font-size: 24px;font-family:"微软雅黑";color:#7fbe25;text-align: left;background-image: url("../Image/soso_title.png");background-position: 0px 0px;background-repeat: no-repeat;text-indent: -999px;}
-.inner-png24{z-index:2;background-image: url("../Image/soso_bg.png");background-repeat: repeat;background-position: 0px 0px;width: 400px;height: 400px;position: absolute;left: 0px;border:1px solid #ccc;}
+.inner-png24{z-index:2;background-image: url("../Image/soso_bg.png");background-repeat: repeat;background-position: 0px 0px;width: 400px;height: 400px;position: absolute;left: 0px;}
 .slides{width: 1349px;height: 400px;float: left;}
 .slides_main{width: 1349px;height: 400px;float: left;}
 .banner5{z-index: 1; background-image: url("../Image/banner01.jpg");background-position: 50% 50%;display: block;float: left;width: 1349px;height: 400px;}
@@ -78,6 +78,8 @@ html{width: 1349px;height: 1980px;}
 .search_fields li{display: block; width: 300px;height: 36px;float: left;margin: 0 0 20px 0;}
 .input-wrap{width: 300px;height: 40px;float: left;}
 .input_city{width: 300px;height: 40px;float: left;border:2px solid #fff;padding-left: 10px;color: #aaa;background: url("../Image/icon_hotellist.png") no-repeat scroll 271px 16px #fff;font-size: 14px;font-family: "微软雅黑";line-height: 36px;padding-left: 10px;}
+.input_date{width: 300px;height: 40px;float: left;border:2px solid #fff;padding-left: 10px;color: #aaa;background: url("../Image/icon_hotellist.png") no-repeat scroll 271px 16px #fff;font-size: 14px;font-family: "微软雅黑";line-height: 36px;padding-left: 10px;}
+.input_key{width: 300px;height: 40px;float: left;border:2px solid #fff;padding-left: 10px;color: #aaa;background: url("../Image/icon_hotellist.png") no-repeat scroll 271px 16px #fff;font-size: 14px;font-family: "微软雅黑";line-height: 36px;padding-left: 10px;}
 .search{width: 400px;float: left;}
 .pop_city{ width: 400px;height: 225px;position: absolute;z-index: 4;background-color: #fff;border: 1px solid rgb(144, 203, 89);box-shadow: 0px 1px 4px rgb(153, 153, 153);top: 245px; left: 128.5px;*top:262px;*left:130px; display: none;}
 .c_title{width: 400px;height: 30px;float: left;line-height: 30px;background: none repeat scroll 0% 0% rgb(144, 203, 89);}
@@ -119,14 +121,14 @@ html{width: 1349px;height: 1980px;}
 
 .slogan{width: 1349px;height: 100px;float: left;margin-bottom: 20px; background: none repeat scroll 0% 0% rgb(243, 243, 243);}
 .slogan-inner{float: left; width: 1200px;height: 100px;margin: 0 auto;background: url("../Image/slogan.png") no-repeat scroll 0% 0% transparent;}
-.main{width:1349px;height: 820px;float: left; border:1px solid #ccc;}
+.main{width:1349px;height: 820px;float: left; }
 .mod_box{width: 1200px;height:183px;margin: 0 auto;margin-bottom: 20px;}
 .mb_hd{width: 1200px;height:32px;margin-bottom: 15px;float: left;}
 .font_db{width: 84px;height:32px;margin-right: 20px;float: left;font-size: 21px;font-family: "微软雅黑";font-weight:normal;color:#333;}
 .mb_bd{width: 1200px;height: 136px;float: left;}
 .db_item{width:auto;height: 136px;float: left;}
 .normalLi{width: 136px;height: 136px;display: block;float: left;margin-right: 16px;*margin-right: 12px;}
-.item_icon{width: 136px;height: 136px;float: left;opacity: 1;background: url("../Image/icon_db.png") no-repeat scroll 0% 0% transparent;}
+.item_icon{width: 136px;height: 136px;float: left;opacity: 1;background: url("../Image/icon_db.png") no-repeat scroll 0% 0% transparent;cursor: pointer;}
 #i_jccz{background-color:#9aacdc;background-position: 0 0;}
 #i_jdzb{background-position: 0px -140px;background-color:#e2bf6f ;}
 #i_dxfj{background-position: 0px -280px;background-color:rgb(255, 149, 91);}
@@ -143,7 +145,7 @@ html{width: 1349px;height: 1980px;}
 .clearfix li{line-height: 18px;padding-right: 10px;display: block;float: left;}
 .clearfix a{font-size: 12px;font-family:"SimSun";color: #333;}
 .clearfix a:hover{color:#7cbf1c ;}
-.picwrap{width: 1200px;height: 570px;float: left;border:1px solid #ccc;position: relative;}
+.picwrap{width: 1200px;height: 570px;float: left;position: relative;}
 .picinner{width: 288px;height: 570px;margin-right: 16px;float: left;}
 .picwrap a{display: block;}
 .picB{height: 277px;}
@@ -172,13 +174,13 @@ html{width: 1349px;height: 1980px;}
 
 /*************************************************footer start*******************************************************************************/
 
-.footer{width: 1349px;height: 494px;float: left;background: none repeat scroll 0% 0% rgb(242, 242, 240);}
+.footer{width: 1349px;height: 512px;float: left;background: none repeat scroll 0% 0% rgb(242, 242, 240);}
 .footer-inner{width: 1200px;height: 234px;margin: 0 auto;padding: 40px 0 20px 0;*height: 295px;}
 .city_hotel{width: 1200px;height: 97px;margin-bottom: 20px;float: left;position: relative; }
 .city_hd{width: 1200px;height: 32px;margin-bottom: 15px;float: left;text-align: left;}
 .city_bd{width: 1200px;height: 50px;float: left;}
 .more_down{width: 43px;height: 43px;float: left;position: absolute;right: 20px;top:47px;}
-.footer-bottom-inner{width: 1200px;height: 138px;padding: 40px 0 20px 0;margin: 0 auto;}
+.footer-bottom-inner{width: 1200px;height: 150px;padding: 40px 0 20px 0;margin: 0 auto;}
 .brand{width: 816px;height: 138px;float: left;}
 .rwm{width: 246px;height: 135px;float: right;}
 .font_city{font-family: "微软雅黑";font-size: 21px;font-weight: normal;}
