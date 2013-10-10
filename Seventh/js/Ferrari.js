@@ -4,6 +4,7 @@ $(function(){
 	TimeStart();
 	menuClick();
 	Jump();
+	master();
 });
 function Jump(){
 	$(".tagcloud a").hover(function(){
@@ -19,22 +20,53 @@ function menuClick(){
 		$(this).css({borderTop:"2px solid rgb(228, 31, 34)"});
 	});
 }
-var index=0;
+
+
+
+
+var handle;
+function master(){
+	$(".goahead").click(function(){
+		clearInterval(handle);
+		ChangeImg();
+		handle=setInterval("ChangeImg()",3000);
+	});
+	$(".return").click(function(){
+		clearInterval(handle);
+		ReturnImg();
+		handle=setInterval("ChangeImg()",3000);
+	});
+}
+function ReturnImg(){
+	var last=arrayList.pop();
+	var len=arrayList.length;
+	$(last).animate({opacity:'toggle'},2000);
+	$(arrayList[len-1]).animate({opacity:'toggle'},2000);
+	index=len;
+}
+
+var index=1;
 var ImgName=".No";
+var current;
+var cur;
+var arrayList=new Array();
+arrayList[0]=".No0";
 function TimeStart(){
-	setInterval("ChangeImg()",2000);
+	handle=setInterval("ChangeImg()",3000);
 }
 function ChangeImg(){
-	var current=index%3;
-	$(".No1,.No2,.No0").hide();
-
-	$(ImgName+current).animate({opacity:'toggle'},2000);
-	
+	current=index%3;
+	cur=ImgName+current;
+	var i=arrayList.push(cur);
+	$(arrayList[i-2]).animate({opacity:'toggle'},2000);
+	$(arrayList[i-1]).animate({opacity:'toggle'},2000);
 	index++;
 }
+
+
+
 function SmallIconslide(){
 	$(".social-media-icon").hover(function(){
-		
 		 $(this).stop().animate({backgroundPosition:"(0 -32px)"}, {duration:200});
 	},function(){
 		 $(this).stop().animate({backgroundPosition:"(0 0px)"}, {duration:200});

@@ -1,0 +1,10 @@
+var current=index%3;
+	$(".No1,.No2,.No0").hide();
+	$(ImgName+current).animate({opacity:'toggle'},2000);
+	index++;
+
+
+
+	$(arrayList[index]).animate({opacity:'toggle'},2000);
+	$(arrayList[index-1]).animate({opacity:'toggle'},2000);
+	index++;
