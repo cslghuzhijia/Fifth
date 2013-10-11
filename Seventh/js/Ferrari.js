@@ -5,7 +5,37 @@ $(function(){
 	menuClick();
 	Jump();
 	master();
+	StopClick();
 });
+
+var stop=1;
+function StopClick(){
+
+	$(".flex-pause,.goahead,.return").hover(function(){
+		
+		$(this).addClass("Changecolor");
+	},
+	function(){
+		$(this).removeClass("Changecolor");
+	});
+	$(".flex-pause").click(function(){
+		if (stop==1) {
+			document.getElementById("flex").innerHTML=">";
+			clearInterval(handle);
+		}
+		else {
+			document.getElementById("flex").innerHTML="||";
+			handle=setInterval("ChangeImg()",3000);
+		}
+		stop=-stop;
+	});
+	
+}
+
+
+
+
+
 function Jump(){
 	$(".tagcloud a").hover(function(){
 		$(this).css({top:"-4px"});
