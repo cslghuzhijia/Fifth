@@ -1,0 +1,33 @@
+a{text-decoration: none;}
+img{border: none;}
+li ul{list-style: none;}
+*{margin: 0px;padding: 0px;}
+body{text-align: center;}
+
+
+
+.hasFontSmoothing-true{width: 1349px;height: 400px;background-image: url("../Image/htmlbg.$5752.png");background-position: 0px 0px;background-repeat: repeat;background-attachment: scroll;}
+.bodysize{height: 400px; width: 1349px;}
+.clearfix{width:1349px;height:331px;padding-bottom: 20px;*height: 351px;float: left;position: relative;}
+#reg-login-switch{z-index:100;width: 93px;height: 44px;position: fixed;right:-3px;top: 20px;*position: absolute;}
+#go-register{ color: rgb(48, 125, 202);font-family:  "Microsoft YaHei";font-size: 12px;display: block;width: 93px;height:44px;text-indent: -9999px;background: url("../Image/reg-login-switcher.$6600.png") no-repeat scroll 0% 0% transparent;}
+.login-bg{z-index:0;width: 1349px;height: 331px;background-color: transparent;}
+.logo-startpage{width:1349px;height: 57px;padding-top: 33px;*height: 90px;float: left;margin-bottom:40px;}
+.login-logo{width: 880px;height: 56px;margin: 0 auto 40px auto;display: block;*margin-bottom:0px;}
+.login-logo a{width:288px;height: 56px;display: block;float: left;text-align: -9999px;background-image: url("../Image/startpage.$6396.png");background-repeat: no-repeat;background-position: 0px 0px;}
+.login-wrap{position: relative; width: 880px;height: 191px;padding-bottom: 10px;margin: 0px auto;*height: 201px;display: block;}
+.login-form-wrap{width: 288px;height:191px;margin: 0px;float: left;}
+.login-form{width: 288px;height: 166px;}
+.input-login-email{width:288px;height: 52px;float: left;margin: 0 5px 3px 0;border: 1px solid #ccc;*margin: 0px;background: url("../Image/startpage-0410.$6008.png");background-position: -210px -52px;overflow: hidden;}
+.input-icon{width: 16px;height: 16px;margin: 18px 0 0 15px;display: block;float: left;background: url("../Image/startpage-1231.$5800.png");background-position: 0px -197px;background-color: transparent;}
+.startpage-input-text{line-height:30px; width: 250px;height: 50px;padding: 10px;float: left;border:none;color: #8f8f8f;font-family: "微软雅黑";font-size: 12px;}
+
+
+
+
+
+
+
+
+
+

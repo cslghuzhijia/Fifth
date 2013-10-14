@@ -1,0 +1,8 @@
+$("#ui-datepicker-div").addClass("Changewidth");
+	
+	 alert($("#ui-datepicker-div").width());
+
+
+
+
+

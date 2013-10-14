@@ -201,9 +201,12 @@ html{width: 1349px;height: 1980px;}
 .rwm_weixin dt{width: 113px;height: 117px;float: left;}
 .rwm_weixin dd{width: 113px;height: 18px;float: left;text-align: center;font-family: "SimSun";color: #333;font-size: 12px;}
 
-
-
-
+.pop_city_container{width:400px;height: 160px;float: left;background-color: #fff;}
+.pop_city_container ul{padding: 10px 0 10px 10px;float: left;width: 390px;*width: 400px;}
+.pop_city_container li{text-align: left; display:block;float: left; width: 65px;margin-right: 10px;margin-bottom: 10px;line-height: 18px;}
+.pop_city_container a{font-size: 12px;font-family: "SimSun";color:#555;}
+#label_city1_container{display: block;height: 140px;*height: 160px;}
+#label_city2_container{display: none;height: 168px;*height: 188px;}
 /*************************************************footer end*******************************************************************************/
 
 

@@ -2,8 +2,28 @@ $(function(){
 	ChangeBgPosition();
 	AddWord();
 	Slide();
+	PositionChoose();
+	smallpchoose();
 });
+function smallpchoose(){
+	$(".pop_city_container a").click(function(){
+		
+		$(".input_city").val($(this).attr("value"));
+	});
+}
 
+function PositionChoose(){
+	$(".list_label a").click(function(){
+
+		var s=($(this).attr("id"));
+		var goal="#"+s+"_container";
+		$(".pop_city_container ul").hide();
+		$(goal).show();
+		var thisheight=($(goal).height()+85);
+		$("#pop_city_city").css({"height":thisheight});
+
+	});
+}
 function Slide(){
 	$(".item_icon").hover(function(){
 
