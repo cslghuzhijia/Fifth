@@ -9,7 +9,7 @@ body{text-align: center;}
 .hasFontSmoothing-true{width: 1349px;height: 400px;background-image: url("../Image/htmlbg.$5752.png");background-position: 0px 0px;background-repeat: repeat;background-attachment: scroll;}
 .bodysize{height: 400px; width: 1349px;}
 .clearfix{width:1349px;height:331px;padding-bottom: 20px;*height: 351px;float: left;position: relative;}
-#reg-login-switch{z-index:100;width: 93px;height: 44px;position: fixed;right:-3px;top: 20px;*position: absolute;}
+#reg-login-switch{z-index:20;width: 93px;height: 44px;position: fixed;right:-3px;top: 20px;*position: absolute;}
 #go-register{ color: rgb(48, 125, 202);font-family:  "Microsoft YaHei";font-size: 12px;display: block;width: 93px;height:44px;text-indent: -9999px;background: url("../Image/reg-login-switcher.$6600.png") no-repeat scroll 0% 0% transparent;}
 .login-bg{z-index:0;width: 1349px;height: 331px;background-color: transparent;}
 .logo-startpage{width:1349px;height: 57px;padding-top: 33px;*height: 90px;float: left;margin-bottom:40px;}
@@ -18,16 +18,26 @@ body{text-align: center;}
 .login-wrap{position: relative; width: 880px;height: 191px;padding-bottom: 10px;margin: 0px auto;*height: 201px;display: block;}
 .login-form-wrap{width: 288px;height:191px;margin: 0px;float: left;}
 .login-form{width: 288px;height: 166px;}
-.input-login-email{width:288px;height: 52px;float: left;margin: 0 5px 3px 0;border: 1px solid #ccc;*margin: 0px;background: url("../Image/startpage-0410.$6008.png");background-position: -210px -52px;overflow: hidden;}
+.input-login-email{position: relative; width:288px;height: 52px;float: left;margin: 0 5px 3px 0;*margin:0 0px 3px 0;background: url("../Image/startpage-0410.$6008.png");background-position: -210px -52px;}
 .input-icon{width: 16px;height: 16px;margin: 18px 0 0 15px;display: block;float: left;background: url("../Image/startpage-1231.$5800.png");background-position: 0px -197px;background-color: transparent;}
-.startpage-input-text{line-height:30px; width: 250px;height: 50px;padding: 10px;float: left;border:none;color: #8f8f8f;font-family: "微软雅黑";font-size: 12px;}
-
-
-
-
-
-
-
-
-
-
+.startpage-input-text{z-index: 20; line-height:30px; width: 250px;height: 50px;padding: 10px;float: left;border:none;color: #8f8f8f;font-family: "微软雅黑";font-size: 16px;background-color: transparent;}
+ label{margin: 0 10px; left: 32px;top: 0px; position: absolute;width: 100px;height: 52px; text-align: left; line-height:52px;color: #8f8f8f;font-family: "微软雅黑";font-size: 16px;z-index: 10;}
+.input-login-pwd{position:relative; width:288px;height: 52px;float: left;margin: 0 5px 20px 0;*margin:0 0px 20px 0;background: url("../Image/startpage-0410.$6008.png");background-position: -210px -52px;}
+.pwd{background-position:  0px -300px;}
+.ctrlbuttonlogin-submit{cursor:pointer;  width: 283px;float: left; height: 39px;padding-left: 5px;*width: 288px;position: relative; }
+.skin-button-willblue-bg-left{position: absolute;top: 0px;left: 0px; width: 5px;height: 39px;float: left;display: block;background-image: url("../Image/button-bg.$5826.png");background-position:0 -600px ;}
+.ctrlbuttonlogin-submitlabel{width: 278px;height:39px;padding-left: 5px;float: left;background: url("../Image/button-bg.$5826.png");background-position: 100% -600px;background-repeat:no-repeat;}
+.ctrlbuttonlogin-submittext{color: #FFF;font-family: "微软雅黑";font-size: 14px;text-align: center;line-height: 37px;letter-spacing: 10px;}
+.login-help{width: 288px;height: 15px;margin-top: 10px;clear:both;}
+.forget-password{font-size: 12px;line-height: 15px;float: left;color: rgb(158, 160, 163);font-family: "微软雅黑";font-size: 12px;}
+.third-party-wrap{width: 440px;height: 171px;position: absolute;top: 0px;right: 0px;}
+.third-party-first{width: 440px;height: 154px;clear: both;}
+.weibo{width: 211px;height: 59px;display: block;float: left;margin: 0 17px 18px 0;*margin:0 15px 18px 0; background: url("../Image/third-register-login-btn.$7164.png");background-position:0px -378px ;background-repeat: no-repeat;}
+.qq{background-position: 0px -441px;margin: 0 0 18px 0;}
+.douban{background-position:0px -504px;}
+.renren{background-position: 0px -567px;margin: 0 0 18px 0;}
+.show-more-third{width: 440px;height: 17px;}
+.show-more-third-span{line-height: 15px;font-size:12px;color:rgb(158, 160, 163);font-family: "微软雅黑";float: left;}
+.footer{width: 1349px;padding-bottom: 10px;position: absolute;top: 380px;color: rgb(158, 160, 163);font-family: "微软雅黑";font-size: 12px;}
+.footer-item{color: rgb(158, 160, 163);font-family: "微软雅黑";font-size: 12px;}
+.focus{background-position: -210px 0px;}
