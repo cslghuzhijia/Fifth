@@ -1,0 +1,29 @@
+a{text-decoration: none;}
+img{border: none;}
+li ul{list-style: none;}
+*{margin: 0px;padding: 0px;}
+body{text-align: center;}
+
+.ks-gecko{width: 1349px;height:1097px;}
+body{width: 1349px;height:1097px;}
+#page{width: 1349px;height:1079px;}
+#J_SiteNav{width: 1349px;height: 35px;border-bottom: 1px solid rgb(245, 245, 245);background-color:rgb(245, 245, 245);}
+#J_SiteNavBd{width: 990px;margin: 0 auto;z-index: 10000;}
+#J_SiteNavBdL{width: 182px;height: 35px;float: left;display: inline;}
+#J_SiteNavBdL li{display: inline-block;float: left;line-height: 35px;}
+#J_LoginInfo{margin: 0px;padding: 0px;}
+.menu-hd{z-index: 10002;position: relative;padding: 0 10px;height: 35px;width:106px;line-height: 35px;overflow: hidden;}
+.menu-hd a{display: inline;float: left;color: rgb(108, 108, 108);margin-right: 7px;font-size: 12px;font-family: "SimSun";}
+.vip-icon{width: 14px;height: 14px;margin-top: 11px; background-image: url("../Image/T1KxCMXeNjXXXXXXXX-14-14.gif");background-repeat: no-repeat;}
+i{width: 6px;height: 6px;margin: 15px 0;display: inline;float: left;position: relative;line-height: 35px;}
+.em{position: absolute;left: 0;top:1px;overflow: hidden; width: 0px;height: 0px;border:3px solid transparent;border-top-color: rgb(108, 108, 108);border-bottom: 0px; }
+.span{position: absolute;left: 0;top:0px;overflow: hidden; width: 0px;height: 0px;border:3px solid transparent;border-top-color:  rgb(245, 245, 245);border-bottom: 0px; }
+#J_Tmsg{margin: 0px;padding: 0px;width: 56px;height: 35px;}
+#J_TmsgList{width:31px;height: 35px;padding: 0 10px;*width: 51px; position: relative;white-space: nowrap;display: inline;}
+.J_TmsgIcon{color: rgb(156, 156, 156);margin-right: 5px;display: inline-block;line-height: 35px;overflow: hidden;width: 14px;height: 35px;float: left;}
+
+.J_SiteNavBdR{display: inline;float: right;width: 749px;height: 35px;}
+.J_SiteNavBdR li{display:inline-block;float: left;border:1px solid #ccc;line-height: 35px;height: 35px;*width: 10px;white-space: nowrap;}
+.h{display: inline;float: left;margin-right: 7px;font-size: 12px;color: rgb(242, 46, 0) !important;line-height: 35px;}
+.n{display: inline;float: left;margin-right: 7px;font-size: 12px;color: rgb(242, 46, 0) !important;line-height: 35px;border: 1px solid #ccc;}
+.menu-ahd{z-index: 10002;position: relative;padding: 0 10px;height: 35px;width:auto;line-height: 35px;overflow: hidden;}
